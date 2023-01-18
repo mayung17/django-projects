@@ -1,0 +1,8 @@
+{%extends "base.html"%}
+
+{%block content%}
+<header><title>Hello</title></header>
+<body><h1>Welcome</h1></body>
+<p>Today is {{today}}</p>
+<a href="{% url 'note.list' %}" class="btn btn-primary">Check out these smartNotes</a>
+{%endblock%}
